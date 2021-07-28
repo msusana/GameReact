@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+#root{
+  height:100vh;
+} 
+.imgTitle{
+  width: 300px;
+  height: 50%;
+  margin: 3%;
+}
+h1{
+  text-align: center;
+  font-family: 'Abril Fatface', cursive;
+  font-size: 40px;
+  color: #365fab;
+  text-shadow: 2px 2px 4px #ffcc01;
+  
+}
+.imgPokemon{
+  width: 280px;
+  height: 200px;
+  background-color: rgba(107, 175, 76, 0.7);
+  border-radius: 50%;
+}
+.currentWord{
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 2%;
+  
+}
+.currentWord span{
+  background-color: rgba(15, 130, 238, 0.5);
+  border-radius: 50%;
+  font-weight: bold;
+}
+.imgPendu{
+  width: 250px;
+  height: 180px;
+}
+.game{
+  padding: 5%;
+}
+.keyboard{
+  margin: 0 10%;
+}
+.keyboard button{
+  margin: 0.3%;
+}
+.finded{
+  padding: 1% 2%;
+}
+.lost{
+  color: red;
+  padding: 1% 2%;
+}
+.notfinded{
+    padding: 1%;
+}
+.newGame{
+  color:yellow;
+  font-weight: bold;
+  font-size: 20px;
+}
