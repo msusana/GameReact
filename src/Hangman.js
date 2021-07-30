@@ -112,7 +112,7 @@ clickLetter = (letter) => {
          }
          {
            this.state.win === -1 &&
-           <img src='gameover.png' className="mx-auto d-block" ></img>
+           <img src='gameover.png' className="mx-auto d-block gameOverHangman" ></img>
          }
     
          {
