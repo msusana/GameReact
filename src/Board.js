@@ -133,7 +133,7 @@ class Board extends Component{
                 backgroundPosition: 'center',
                 backgroundSize: 'cover',
                 backgroundRepeat: 'no-repeat', 
-                height: '100vh'
+                height: '1000px'
               }}>
                   <Navegation />
                 { (this.state.win === 0 && this.state.winner === null) &&

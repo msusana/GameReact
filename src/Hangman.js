@@ -14,7 +14,7 @@ const IMGPATH = "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprite
 
 class Hangman extends Component{
   state = {
-    alphabet : "ABCDEFGHIJKLMNOPQRSTUVWXYZ".toLowerCase().split(''),
+    alphabet : "ABCDEFGHIJKLMNOPQRSTUVWXYZ-".toLowerCase().split(''),
     usedLetter : [],
     win : 0, // 0 neutral| 1 win | -1 lost
     attemps: 0, 
@@ -77,7 +77,7 @@ clickLetter = (letter) => {
         backgroundPosition: 'center',
         backgroundSize: 'cover',
         backgroundRepeat: 'no-repeat', 
-        height: '100vh'
+        height: '1000px'
       }}>
           <Navegation />
         <Container>
